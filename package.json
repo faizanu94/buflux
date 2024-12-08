@@ -1,0 +1,58 @@
+{
+  "name": "buflux",
+  "version": "1.0.1",
+  "description": "A high-performance, event-driven buffer library for Node.js and browsers, with configurable overflow strategies",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faizanu94/buflux.git"
+  },
+  "author": "Muhammad Faizan Uddin <faizan.uddin94@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "sideEffects": false,
+  "homepage": "https://github.com/faizanu94/buflux#readme",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "format": "prettier --write \"**/*.{js,ts,json,md,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,json,md,yml}\"",
+    "lint": "eslint 'src/**/*.{js,ts}'",
+    "lint:fix": "eslint 'src/**/*.{js,ts}' --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.44.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.1.6",
+    "vitest": "^0.32.2"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "npm",
+    "browser",
+    "isomorphic",
+    "queue",
+    "buffer",
+    "overflow",
+    "circular-buffer",
+    "eviction",
+    "fixed-capacity"
+  ],
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ]
+}
