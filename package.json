@@ -4,9 +4,6 @@
   "description": "A high-performance, event-driven buffer library for Node.js and browsers, with configurable overflow strategies",
   "type": "module",
   "main": "./dist/index.js",
-  "exports": {
-    ".": "./dist/index.js"
-  },
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
