@@ -1,10 +1,10 @@
 {
   "name": "buflux",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A high-performance, event-driven buffer library for Node.js and browsers, with configurable overflow strategies",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/faizanu94/buflux.git"
@@ -51,13 +51,5 @@
     "dist/",
     "README.md",
     "LICENSE"
-  ],
-  "exports": {
-    ".": {
-      "import": "./dist/index.js"
-    },
-    "./dist/index": {
-      "import": "./dist/index.js"
-    }
-  }
+  ]
 }
