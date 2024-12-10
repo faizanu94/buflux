@@ -1,6 +1,6 @@
 {
   "name": "buflux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A high-performance, event-driven buffer library for Node.js and browsers, with configurable overflow strategies",
   "type": "module",
   "main": "./dist/index.js",
